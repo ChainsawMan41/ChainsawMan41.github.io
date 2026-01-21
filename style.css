@@ -64,13 +64,35 @@ main {
     padding: 15px;
 }
 
-/* interests section styles */
-#interests {
-    border: 4px white ridge;
-    padding: 8px;
-    margin-top: 20px;
-}
+
 
 h2, h3 {
     margin: 0px;
 }
+
+/* Portfolio styles */
+.content h1 {
+    color: white;
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: rgb(0, 183, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: red;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: white;
+}
+
