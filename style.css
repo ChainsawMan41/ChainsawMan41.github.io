@@ -52,6 +52,7 @@ main {
 
 .sidebar {
     background: rgb(0, 183, 255);
+    margin-right: 25px;   
     padding: 10px;
 }
 
