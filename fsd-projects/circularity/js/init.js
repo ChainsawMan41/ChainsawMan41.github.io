@@ -64,13 +64,16 @@ var init = function (window) {
             // physikz.updatePosition(circles[3])
             // physikz.updatePosition(circles[4])
             // TODO 5 : Call game.checkCirclePosition() on your circles
-           game.checkCirclePosition(circles[0])
-           game.checkCirclePosition(circles[1])
-           game.checkCirclePosition(circles[2])
-           game.checkCirclePosition(circles[3])
-           game.checkCirclePosition(circles[4])
+        //    game.checkCirclePosition(circles[0])
+        //    game.checkCirclePosition(circles[1])
+        //    game.checkCirclePosition(circles[2])
+        //    game.checkCirclePosition(circles[3])
+        //    game.checkCirclePosition(circles[4])
 
             // TODO 8 / TODO 9 : Iterate over the array
+           for (sphere = 0; sphere <= 777; sphere++){
+            game.checkCirclePosition(circles[sphere])
+           }
            for (sphere = 0; sphere <= 777; sphere++) {
            physikz.updatePosition(circles[sphere])
            }
